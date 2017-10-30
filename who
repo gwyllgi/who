@@ -1,0 +1,3 @@
+#!/bin/sh
+
+echo "IP Public "; exec curl ipinfo.io/ip ipinfo.io/org ipinfo.io/region ipinfo.io/country
